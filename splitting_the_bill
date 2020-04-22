@@ -1,0 +1,25 @@
+""""
+
+Author: Maria Malave 4/22/2020
+
+"""
+
+#Calculate how to split a bill by X amount of people including 20% tip
+
+#The amount of the total bill
+bill = 47.28
+
+#20 Percent tip
+tip = bill * 0.20
+
+#Calculate the total of bill plus tip
+total = bill + tip
+
+#number of people splitting the bill
+number_persons = 2
+
+#Each person's share of the bill including tip
+share = total / number_persons
+
+#print the result of each person's share of the total bill
+print("Each person needs to pay: " + str(share))
